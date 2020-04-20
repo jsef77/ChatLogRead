@@ -1,0 +1,53 @@
+**** BEGIN LOGGING AT Mon Apr 20 13:47:16 2020
+
+Apr 20 13:47:20 <cmykert>	test1
+Apr 20 14:06:02 <cmykert>	!red
+Apr 20 14:21:07 <cmykert>	testchange
+Apr 20 14:21:31 <cmykert>	testchange1
+Apr 20 14:24:20 <cmykert>	logchange
+Apr 20 14:24:42 <cmykert>	llgglgl
+Apr 20 14:24:44 <cmykert>	change
+Apr 20 14:25:21 <cmykert>	change
+Apr 20 14:26:52 <cmykert>	test
+Apr 20 14:27:23 <cmykert>	new
+**** ENDING LOGGING AT Mon Apr 20 14:28:23 2020
+
+**** BEGIN LOGGING AT Mon Apr 20 14:28:23 2020
+
+Apr 20 14:28:24 <cmykert>	update
+Apr 20 14:28:36 <cmykert>	newdatat
+Apr 20 14:28:48 <cmykert>	tes
+Apr 20 14:29:03 <cmykert>	update
+Apr 20 14:29:05 <cmykert>	clear
+Apr 20 14:29:08 <cmykert>	update
+Apr 20 14:32:05 <cmykert>	update
+Apr 20 14:32:09 <cmykert>	look
+Apr 20 14:32:11 <cmykert>	read
+Apr 20 14:34:00 <cmykert>	read
+Apr 20 14:34:01 <cmykert>	read
+Apr 20 14:34:06 <cmykert>	read
+Apr 20 14:34:07 <cmykert>	read
+Apr 20 14:34:07 <cmykert>	read
+Apr 20 14:34:08 <cmykert>	read
+Apr 20 14:34:08 <cmykert>	read
+Apr 20 14:34:21 <cmykert>	clear
+Apr 20 14:34:23 <cmykert>	!red
+Apr 20 15:01:19 <cmykert>	testing
+Apr 20 15:22:12 <cmykert>	newline
+Apr 20 15:22:14 <cmykert>	new
+Apr 20 15:22:16 <cmykert>	newline
+Apr 20 15:33:15 <cmykert>	blue
+Apr 20 15:33:17 <cmykert>	!red
+Apr 20 15:33:45 <cmykert>	red
+Apr 20 15:33:48 <cmykert>	!red
+Apr 20 15:34:06 <cmykert>	red
+Apr 20 15:34:09 <cmykert>	!red
+**** BEGIN LOGGING AT Mon Apr 20 15:41:28 2020
+
+Apr 20 15:41:28 *	Now talking on #cmykert
+Apr 20 15:44:19 <cmykert>	blue
+Apr 20 15:44:22 <cmykert>	!blue
+Apr 20 15:44:36 <cmykert>	red
+Apr 20 15:44:38 <cmykert>	!red
+Apr 20 15:44:43 <cmykert>	not red
+Apr 20 15:44:46 <cmykert>	!blue
