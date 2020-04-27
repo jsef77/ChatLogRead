@@ -4,7 +4,7 @@ import os
 filePath = '[PATH TO CHATLOG TEXT FILE]'
 lastLine = None
 
-colourLookup = {'red\n': '0 bang;',
+commandLookup = {'red\n': '0 bang;',
                 'green\n': '1 bang',
                 'blue\n': '2 bang'}
 
@@ -25,7 +25,7 @@ def CommandDetect(newCommand):
 
         newCommand = newCommand.split("!")[1]
         print('!COMMAND ALERT: ' + newCommand)
-        if newCommand in colourLookup:
+        if newCommand in commandLookup:
             print('Command Recognised!')
             print("Sending to PureData...")
             send2Pd(colourLookup.get("{}".format(newCommand)))
