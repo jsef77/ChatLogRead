@@ -1,7 +1,7 @@
 import time
 import os
 
-filePath = 'C:\Users\josef\AppData\Roaming\HexChat\logs\Twitch IRC\#cmykert.log'
+filePath = '[PATH TO CHATLOG TEXT FILE]'
 lastLine = None
 
 colourLookup = {'red\n': '0 bang;',
@@ -13,7 +13,6 @@ colourLookup = {'red\n': '0 bang;',
 def send2Pd(message):
     #sending messages to PureData
 
-    #debug = "debug"
     cmdMessage = "echo {} | pdsend 3000 localhost udp".format(message)
     os.system(cmdMessage)
     #print(cmdMessage)
@@ -33,15 +32,7 @@ def CommandDetect(newCommand):
         else:
             print('Command Not Recognised. Ignored.')
             newCommand = None
-        
-        #message = colourLookup.get("{}".format(newCommand), "NO ")
-        #print(message + "value sent!")
-        #print(newCommand)
-        #send2Pd(newCommand)
-        #print("Sent!")
-
-
-
+            
 
 with open(filePath,'r') as f:
         while True:
