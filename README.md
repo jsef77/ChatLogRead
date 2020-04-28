@@ -18,6 +18,8 @@ It was tested and built for use with a PureData patch, like the one included in 
 
 ## SETUP
 
+**you need to make sure that 'pdsend' works within console, else this script will not be able to send any messages.**
+
 to change which file readfilechanges.py monitors, edit the line:
 
 filePath = '[PATH TO CHATLOG TEXT FILE]'
