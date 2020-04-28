@@ -5,8 +5,8 @@ filePath = '[PATH TO CHATLOG TEXT FILE]'
 lastLine = None
 
 commandLookup = {'red\n': '0 bang;',
-                'green\n': '1 bang',
-                'blue\n': '2 bang'}
+                'green\n': '1 bang;',
+                'blue\n': '2 bang;'}
 
 
 
