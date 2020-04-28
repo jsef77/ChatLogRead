@@ -2,7 +2,7 @@
 
 Files included within this repo:
 * readfilechanges.py - Main Python 2.7 script
-* PythonColourValues - [PureData](https://puredata.info) patch for use with script (requires GEM and mrpeach external libraries)
+* PythonColourValues - [PureData](https://puredata.info) patch for use with script (requires *GEM* and *mrpeach* external libraries)
 * RGB Interface.touchOSC - optional interface for use with [touchOSC](https://hexler.net/products/touchosc) (recieved by Pd patch on port 9001)
 * README.md - this file
 
