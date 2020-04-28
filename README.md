@@ -11,7 +11,7 @@ The script sends udp packets on the port 3000, which can be received by anything
 It was tested and built for use with a PureData patch, like the one included in this repo.
 
 
---SETUP--
+# SETUP
 
 to change which file readfilechanges.py monitors, edit the line:
 
@@ -33,7 +33,7 @@ Once the file path is set,
 5) send/receive messages in Twitch Chat
 
 
---ADDING COMMANDS--
+# ADDING COMMANDS
 
 If you wish to include more commands for the python file to recognise, edit the dictionary 'colourLookup' within the script.
 
