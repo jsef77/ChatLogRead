@@ -24,11 +24,11 @@ filePath = '[PATH TO CHATLOG TEXT FILE]'
 
 
 The script should then monitor that text file for incoming commands, and send a 'bang' via udp with id's 0, 1, and 2, depending
-on the command it reads.
+on the command it reads:
 
-!red = id 0
-!green = id 1
-!blue = id 2
+* !red = id 0
+* !green = id 1
+* !blue = id 2
 
 Once the file path is set,
 1. connect to Twitch Chat via IRC client (ensure file path is correct!)
@@ -49,6 +49,6 @@ colourLookup = {'red\n': '0 bang;',
                 'blue\n': '2 bang'
 		'rotate\n': '3 bang'}
 
-*MAKE SURE YOU ADD THE '\n' IN THE DICTIONARY.
+__*MAKE SURE YOU ADD THE '\n' IN THE DICTIONARY__.
 
 You'll then have to edit the PureData patch to listen for a udp message with id 3. And then do what you wish with that incoming bang.
